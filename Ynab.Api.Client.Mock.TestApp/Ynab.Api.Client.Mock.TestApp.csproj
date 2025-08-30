@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ynab.Api.Client" Version="1.73.1" />
+    <PackageReference Include="Ynab.Api.Client.Extensions" Version="1.73.5" />
+    <ProjectReference Include="../Ynab.Api.Client.Mock/Ynab.Api.Client.Mock.csproj" />
+  </ItemGroup>
+
+</Project>

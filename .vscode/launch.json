@@ -4,6 +4,15 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-    
+        {
+            "name": "Test App",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "dotnet: build",
+            "program": "${workspaceFolder}/Ynab.Api.Client.Mock.TestApp/bin/Debug/net9.0/Ynab.Api.Client.Mock.TestApp.dll",
+            "cwd": "${workspaceFolder}/Ynab.Api.Client.Mock.TestApp",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        }
     ]
 }
