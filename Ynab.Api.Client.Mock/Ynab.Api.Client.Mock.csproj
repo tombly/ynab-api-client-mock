@@ -5,12 +5,12 @@
     <PackageDescription>A mock for the Ynab.Api.Client</PackageDescription>
     <PackageId>Ynab.Api.Client.Mock</PackageId>
     <PackageTags>ynab;api;client;dotnetcore;dotnet;sdk</PackageTags>
-    <Version>1.73.0</Version>
+    <Version>1.77.0</Version>
     <Authors>Tom Bulatewicz</Authors>
     <PackageProjectUrl>https://github.com/tombly/ynab-api-client-mock</PackageProjectUrl>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <RootNamespace>Ynab.Api.Client.Mock</RootNamespace>
-    <Copyright>2025 Tom Bulatewicz</Copyright>
+    <Copyright>2026 Tom Bulatewicz</Copyright>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>icon.png</PackageIcon>
@@ -34,8 +34,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Ynab.Api.Client" Version="1.73.1" />
-    <PackageReference Include="Ynab.Api.Client.Extensions" Version="1.73.5" />
+    <PackageReference Include="Ynab.Api.Client" Version="1.77.0" />
+    <PackageReference Include="Ynab.Api.Client.Extensions" Version="1.77.0" />
   </ItemGroup>
 
 </Project>

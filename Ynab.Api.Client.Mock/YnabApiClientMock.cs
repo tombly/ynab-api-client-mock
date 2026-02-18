@@ -250,6 +250,26 @@ public class YnabApiClientMock : IYnabApiClient
         throw new NotImplementedException();
     }
 
+    public Task<ScheduledTransactionResponse> UpdateScheduledTransactionAsync(string budget_id, string scheduled_transaction_id, PutScheduledTransactionWrapper body)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<ScheduledTransactionResponse> UpdateScheduledTransactionAsync(string budget_id, string scheduled_transaction_id, PutScheduledTransactionWrapper body, CancellationToken cancellationToken)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<ScheduledTransactionResponse> DeleteScheduledTransactionAsync(string budget_id, string scheduled_transaction_id)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<ScheduledTransactionResponse> DeleteScheduledTransactionAsync(string budget_id, string scheduled_transaction_id, CancellationToken cancellationToken)
+    {
+        throw new NotImplementedException();
+    }
+
     public Task<TransactionResponse> GetTransactionByIdAsync(string budget_id, string transaction_id)
     {
         throw new NotImplementedException();
@@ -296,12 +316,12 @@ public class YnabApiClientMock : IYnabApiClient
         throw new NotImplementedException();
     }
 
-    public Task<HybridTransactionsResponse> GetTransactionsByMonthAsync(string budget_id, string month, DateTimeOffset? since_date, Type? type, long? last_knowledge_of_server)
+    public Task<TransactionsResponse> GetTransactionsByMonthAsync(string budget_id, string month, DateTimeOffset? since_date, Type? type, long? last_knowledge_of_server)
     {
         throw new NotImplementedException();
     }
 
-    public Task<HybridTransactionsResponse> GetTransactionsByMonthAsync(string budget_id, string month, DateTimeOffset? since_date, Type? type, long? last_knowledge_of_server, CancellationToken cancellationToken)
+    public Task<TransactionsResponse> GetTransactionsByMonthAsync(string budget_id, string month, DateTimeOffset? since_date, Type? type, long? last_knowledge_of_server, CancellationToken cancellationToken)
     {
         throw new NotImplementedException();
     }

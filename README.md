@@ -23,6 +23,6 @@ var budgets = mock.GetBudgetsAsync();
 
 ## License
 
-Copyright (c) 2025 Tom Bulatewicz
+Copyright (c) 2026 Tom Bulatewicz
 
 Licensed under the MIT license

@@ -1,15 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <OutputType>Exe</OutputType>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Ynab.Api.Client" Version="1.73.1" />
-    <PackageReference Include="Ynab.Api.Client.Extensions" Version="1.73.5" />
+    <PackageReference Include="Ynab.Api.Client" Version="1.77.0" />
+    <PackageReference Include="Ynab.Api.Client.Extensions" Version="1.77.0" />
     <ProjectReference Include="../Ynab.Api.Client.Mock/Ynab.Api.Client.Mock.csproj" />
   </ItemGroup>
 
