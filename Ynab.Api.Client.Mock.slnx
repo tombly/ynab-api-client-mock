@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Ynab.Api.Client.Mock\Ynab.Api.Client.Mock.csproj" />
+  <Project Path="Ynab.Api.Client.Mock.TestApp\Ynab.Api.Client.Mock.TestApp.csproj" />
+</Solution>

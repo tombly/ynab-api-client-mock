@@ -9,7 +9,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "dotnet: build",
-            "program": "${workspaceFolder}/Ynab.Api.Client.Mock.TestApp/bin/Debug/net9.0/Ynab.Api.Client.Mock.TestApp.dll",
+            "program": "${workspaceFolder}/Ynab.Api.Client.Mock.TestApp/bin/Debug/net10.0/Ynab.Api.Client.Mock.TestApp.dll",
             "cwd": "${workspaceFolder}/Ynab.Api.Client.Mock.TestApp",
             "stopAtEntry": false,
             "console": "internalConsole"
